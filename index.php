@@ -18,3 +18,4 @@ $toyotaCarProto = new CarProto(new CarPartsFactoryPrototype(), 'Toyota');
 $toyotaCarProto->pushAccelerator();
 echo "Proto car speed value ";
 echo $toyotaCarProto->getSpeedValue() . "km/h";
+
